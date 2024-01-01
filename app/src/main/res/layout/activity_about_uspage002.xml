@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:orientation="vertical"
+    android:background="@drawable/z">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who Are You"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/z1"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/wall6"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:text="A mobile expense tracker is a mobile application designed to help individuals or businesses track and manage their expenses easily and efficiently. The primary purpose of a mobile expense tracker is to provide users with a convenient way to monitor their spending, understand their financial habits, and make informed decisions about budgeting and saving."
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+</RelativeLayout>

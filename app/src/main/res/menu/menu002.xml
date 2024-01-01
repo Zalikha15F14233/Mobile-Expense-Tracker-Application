@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/z">
+
+    <item android:id="@+id/menu_page" android:title="Menu Page" />
+    <item android:id="@+id/about_us" android:title="About Us" />
+    <item android:id="@+id/View_invoice4" android:title="View invoice" />
+    <item android:id="@+id/MET_sub" android:title="MET Subscription" />
+    <item android:id="@+id/contact_us" android:title="Contact Us" />
+    <item android:id="@+id/close_app" android:title="Close App" />
+</menu>
